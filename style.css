@@ -49,7 +49,7 @@ section{
     margin-top: 12%;
  }
 
- #name{
+ #name-highlight{
      color: #ff0066;
  }
 
@@ -73,7 +73,7 @@ section{
     margin-top: 5%;
 }
 
-#latest-work-center{
+.text-alignment{
     text-align: center;
     margin-top: 8%;
 }
@@ -109,7 +109,6 @@ section{
     color: white;
 }
 footer{
-     text-align: center;
      font-size: x-small;
      margin-bottom: 2%;
  }
