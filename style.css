@@ -62,13 +62,15 @@ section{
     width: 29%;
     float: left;  
     margin-left: 2%;
-    transition: width 2s;
+    transition: width 2s, height 2s;
 }
  .latest-work-div img:hover{
     box-shadow: 10px 10px 40px grey;
     border-left: 5px solid;
     border-image: linear-gradient( 360deg, rgb(243, 53, 148), rgb(252, 6, 137));
     border-image-slice: 1;
+    width: 33%;
+    height: 33%;
  }
 .latest-work-div{
     margin-left: 5%;
@@ -110,6 +112,3 @@ footer{
      font-size: x-small;
      margin-bottom: 2%;
  }
-[alt|=work]:hover {
-    width: 100%;
-}
