@@ -62,6 +62,7 @@ section{
     width: 29%;
     float: left;  
     margin-left: 2%;
+    transition: width 2s;
 }
  .latest-work-div img:hover{
     box-shadow: 10px 10px 40px grey;
@@ -109,3 +110,6 @@ footer{
      font-size: x-small;
      margin-bottom: 2%;
  }
+[alt|=work]:hover {
+    width: 35%;
+}
